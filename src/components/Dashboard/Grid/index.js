@@ -67,18 +67,18 @@ function Grid({ coin, delay }) {
         )}
         {coin.price_change_percentage_24h >= 0 ? (
           <p className="current-price">
-            ${coin.current_price.toLocaleString()}
+            ₹{coin.current_price.toLocaleString()}
           </p>
         ) : (
           <p className="current-price-red">
-            ${coin.current_price.toLocaleString()}
+            ₹{coin.current_price.toLocaleString()}
           </p>
         )}
         <p className="coin-name">
           Total Volume : {coin.total_volume.toLocaleString()}
         </p>
         <p className="coin-name">
-          Market Capital : ${coin.market_cap.toLocaleString()}
+          Market Capital : ₹{coin.market_cap.toLocaleString()}
         </p>
       </motion.div>
     </a>

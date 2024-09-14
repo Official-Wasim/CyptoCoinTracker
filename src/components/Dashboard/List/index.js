@@ -62,14 +62,14 @@ function List({ coin, delay }) {
             </td>
           )}
         </Tooltip>
-        <Tooltip title="Coin Price In USD" placement="bottom-end">
+        <Tooltip title="Coin Price In INR" placement="bottom-end">
           {coin.price_change_percentage_24h >= 0 ? (
             <td className="current-price  td-current-price">
-              ${coin.current_price.toLocaleString()}
+              ₹{coin.current_price.toLocaleString()}
             </td>
           ) : (
             <td className="current-price-red td-current-price">
-              ${coin.current_price.toLocaleString()}
+              ₹{coin.current_price.toLocaleString()}
             </td>
           )}
         </Tooltip>
@@ -80,12 +80,12 @@ function List({ coin, delay }) {
         </Tooltip>
         <Tooltip title="Coin Market Capital" placement="bottom-end">
           <td className="coin-name td-marketCap">
-            ${coin.market_cap.toLocaleString()}
+          ₹{coin.market_cap.toLocaleString()}
           </td>
         </Tooltip>
-        <td className="coin-name mobile">${convertNumber(coin.market_cap)}</td>
+        <td className="coin-name mobile">₹{convertNumber(coin.market_cap)}</td>
         <td
-          className={`watchlist-icon ${
+          className={`watchlist-icon ₹{
             coin.price_change_percentage_24h < 0 && "watchlist-icon-red"
           }`}
           onClick={(e) => {
