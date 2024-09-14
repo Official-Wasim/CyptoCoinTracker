@@ -1,34 +1,36 @@
-##Check Live Website here...
+# Check Live Website here...
 https://crypto-coin-trackerr.netlify.app/
 
 
-##Initial Setup - 
+## Features
+
+### Initial Setup - 
 
 0. Made Root Variables and added fonts using Google fonts.
-1. Custom scroll Bar
+1. Custom scroll Bar.
 2. Custom selection.
 3. Disabling Image dragging + Folder Structure and code organisation.
 
-##Landing page - 
+### Landing page - 
 
 4. Header - Mui Drawer.
 5. Text Stroke Hover animation - landing page.
 6. Framer Motion - The animation for phone and entrance animation for text.
 
-##Dashboard page - 
+### Dashboard page - 
 
-7. Mui Tab component - for dashboard tabs (custom themed)
+7. Mui Tab component - for dashboard tabs (custom themed).
 8. Get data from Coingecko api - using axios.
 9. ToLocaleString() - adds commas to numbers and ToFixed(2) - adds 2 decimal places
 10. Converting numbers to K,M,B - custom function
 11. Search functionality - accomplished using .filter()
 12. Added a delay in the animations for our Grid and List component.
-13. Pagination Mui - slicing the data in correspondence to the page number
+13. Pagination Mui - slicing the data in correspondence to the page number.
 14. Wrote a js function to take us to the top of the page.
 
-##Coin page - 
+### Coin page - 
 
-15. Used router params to get the id of the bitcoin
+15. Used router params to get the id of the bitcoin.
 16. Used bitcoin id - to get the coins data, and prices for x number of days.
 17. Used react-chartjs-2 to make the graphs.
 18. Made a function to get the array of dates in x number of days.
@@ -38,29 +40,30 @@ https://crypto-coin-trackerr.netlify.app/
 22. Made a Loading component to make sure all the data was there, before rendering the components.
 23. Made a custom styled object to style Mui Components + Read More or Read Less functionality.
 
-
-##Compare Page - 
+### Compare Page - 
 
 24. For the 2 simultaneous graphs, we made 2 y-axis and 2 datasets.
 25. Select component mui, having the list of 100 coins.
 26. Also since comparison of the same coin makes no sense, we made sure that both selects have every coin other than the coin selected.
 
-##Light Mode Dark Mode - 
+### Light Mode Dark Mode - 
 
-27. Using local storage and data-theme variable in css
+27. Using local storage and data-theme variable in css.
 28. Updating root variables according to the theme.
 
-##Watchlist- 
-29. localstorage - adding coins in an array
+### Watchlist - 
+
+29. localstorage - adding coins in an array.
 30. localstorage - removing as well.
-31. useEffect -> watchlist page
+31. useEffect -> watchlist page.
 
-##Other features - 
-
+### Other features - 
 32. Using RWebShare npm package.
-33. Custom Mouse - 2 divs that follow the mouse (with delay)
+33. Custom Mouse - 2 divs that follow the mouse (with delay).
 34. Mui icons
 35. Seo + Code modularity and reusability.
 36. Hosted using netlify, netlify.toml file.
-37. Gradient footer - gradient animation
+37. Gradient footer - gradient animation.
 38. Added toasts - react-toastify for every action.
+
+
