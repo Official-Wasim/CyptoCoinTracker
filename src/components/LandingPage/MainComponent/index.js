@@ -17,7 +17,7 @@ function MainComponent() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Track Crypto
+          Track Crypto Coins
         </motion.h1>
         <motion.h1
           className="heading2"
@@ -25,7 +25,7 @@ function MainComponent() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.75, duration: 1 }}
         >
-          Real Time.
+          In Real Time.
         </motion.h1>
         <motion.p
           className="info-text"
@@ -33,8 +33,7 @@ function MainComponent() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          Track crypto through a public api in real time. Visit the dashboard to
-          do so!{" "}
+          Track crypto through a public api in real time. Visit the dashboard to right now!{" "}
         </motion.p>
         <motion.div
           className="btn-flex"
@@ -47,9 +46,9 @@ function MainComponent() {
           </a>
           <RWebShare
             data={{
-              text: "CryptoDashboard made by Avi Vashishta using React JS.",
-              url: "https://crypto-dashboard-jan.netlify.app",
-              title: "CryptoTracker.",
+              text: "CryptoCoinDashboard made by Wasim using React JS.",
+              url: "https://crypto-coin-trackerr.netlify.app/",
+              title: "CryptoCoinTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
           >
